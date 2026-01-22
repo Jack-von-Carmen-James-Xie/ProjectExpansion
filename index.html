@@ -1,0 +1,1622 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_227f4ec2420d4d404500c6ee6551735b {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_227f4ec2420d4d404500c6ee6551735b" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_227f4ec2420d4d404500c6ee6551735b = L.map(
+                "map_227f4ec2420d4d404500c6ee6551735b",
+                {
+                    center: [-34.9, 138.6],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 7,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_7f9cc88635cfd7a0876fd134797e0db9 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_227f4ec2420d4d404500c6ee6551735b);
+        
+    
+            var marker_70626c6f9c52816b82ee03f287e2f8d5 = L.marker(
+                [-34.884391554103296, 138.5147993428699],
+                {}
+            ).addTo(map_227f4ec2420d4d404500c6ee6551735b);
+        
+    
+            var icon_613b8ea904064152ddfcbf39301cafa5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "purple", "prefix": "fa"}
+            );
+            marker_70626c6f9c52816b82ee03f287e2f8d5.setIcon(icon_613b8ea904064152ddfcbf39301cafa5);
+        
+    
+        var popup_7676b97a34fb15be96bb04bef04fba6d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d23115df9f799964033ad1e5bbf96e3c = $(`<div id="html_d23115df9f799964033ad1e5bbf96e3c" style="width: 100.0%; height: 100.0%;">     <b>House of Saint Hilarion</b><br>     <b>Address:</b> 7 Kelly Ave, Seaton, SA 5023     </div>`)[0];
+                popup_7676b97a34fb15be96bb04bef04fba6d.setContent(html_d23115df9f799964033ad1e5bbf96e3c);
+            
+        
+
+        marker_70626c6f9c52816b82ee03f287e2f8d5.bindPopup(popup_7676b97a34fb15be96bb04bef04fba6d)
+        ;
+
+        
+    
+    
+            var marker_d1873ac09570ff55b944ff612e379d37 = L.marker(
+                [-34.92990937971787, 138.5140603790399],
+                {}
+            ).addTo(map_227f4ec2420d4d404500c6ee6551735b);
+        
+    
+            var icon_58ca31d9f6faab157e5021a3b019ef09 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "purple", "prefix": "fa"}
+            );
+            marker_d1873ac09570ff55b944ff612e379d37.setIcon(icon_58ca31d9f6faab157e5021a3b019ef09);
+        
+    
+        var popup_f15b5429374208b83418b77ee81d3ca9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a13f3054ce38cb3e72cac51318e32903 = $(`<div id="html_a13f3054ce38cb3e72cac51318e32903" style="width: 100.0%; height: 100.0%;">     <b>Villa Saint Hilarion</b><br>     <b>Address:</b> 21 Farncomb Rd, Fulham, SA 5024     </div>`)[0];
+                popup_f15b5429374208b83418b77ee81d3ca9.setContent(html_a13f3054ce38cb3e72cac51318e32903);
+            
+        
+
+        marker_d1873ac09570ff55b944ff612e379d37.bindPopup(popup_f15b5429374208b83418b77ee81d3ca9)
+        ;
+
+        
+    
+    
+            var feature_group_5ffc3745ccdfe4381cdbdaafb6ec234f = L.featureGroup(
+                {}
+            ).addTo(map_227f4ec2420d4d404500c6ee6551735b);
+        
+    
+            var marker_cluster_921c1ef5ea1890c6a1cd4dea2dd5b4f6 = L.markerClusterGroup(
+                {}
+            );
+            feature_group_5ffc3745ccdfe4381cdbdaafb6ec234f.addLayer(marker_cluster_921c1ef5ea1890c6a1cd4dea2dd5b4f6);
+        
+    
+            var marker_5061c8f990412fbdc2ebd8fa812b4146 = L.marker(
+                [-34.5912209198514, 138.755930721305],
+                {}
+            ).addTo(marker_cluster_921c1ef5ea1890c6a1cd4dea2dd5b4f6);
+        
+    
+            var icon_4ca0c4f5ef184d0c647e9d53f02d6984 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "paw", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_5061c8f990412fbdc2ebd8fa812b4146.setIcon(icon_4ca0c4f5ef184d0c647e9d53f02d6984);
+        
+    
+        var popup_23082700f8ee00caf383b350b50f89d1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c01fecfb90dd95c40592ad8ce05789e8 = $(`<div id="html_c01fecfb90dd95c40592ad8ce05789e8" style="width: 100.0%; height: 100.0%;">     <b>Bellevue Court Residential Care</b><br>     <b>Care Type:</b> Residential Care<br>     <b>Places:</b> 80<br>     <b>Address:</b> 9 Bellevue Court, Gawler East, SA 5118     </div>`)[0];
+                popup_23082700f8ee00caf383b350b50f89d1.setContent(html_c01fecfb90dd95c40592ad8ce05789e8);
+            
+        
+
+        marker_5061c8f990412fbdc2ebd8fa812b4146.bindPopup(popup_23082700f8ee00caf383b350b50f89d1)
+        ;
+
+        
+    
+    
+            var marker_b0e6b6a9d133f44f7b43d5bcf43e264e = L.marker(
+                [-34.9557812038479, 138.554574091332],
+                {}
+            ).addTo(marker_cluster_921c1ef5ea1890c6a1cd4dea2dd5b4f6);
+        
+    
+            var icon_df434403e7dacd469515a8366e93c164 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "paw", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_b0e6b6a9d133f44f7b43d5bcf43e264e.setIcon(icon_df434403e7dacd469515a8366e93c164);
+        
+    
+        var popup_d40896bceb265984c441bd22e7f57b21 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3fb0092af116a152ab1b5fc91c04f1e3 = $(`<div id="html_3fb0092af116a152ab1b5fc91c04f1e3" style="width: 100.0%; height: 100.0%;">     <b>Bucklands Residential Care</b><br>     <b>Care Type:</b> Residential Care<br>     <b>Places:</b> 147<br>     <b>Address:</b> 333 Marion Road, North Plympton, SA 5037     </div>`)[0];
+                popup_d40896bceb265984c441bd22e7f57b21.setContent(html_3fb0092af116a152ab1b5fc91c04f1e3);
+            
+        
+
+        marker_b0e6b6a9d133f44f7b43d5bcf43e264e.bindPopup(popup_d40896bceb265984c441bd22e7f57b21)
+        ;
+
+        
+    
+    
+            var marker_e10dc643f0a1404179c4e5cc0f8db01b = L.marker(
+                [-34.9624195721512, 138.640963916113],
+                {}
+            ).addTo(marker_cluster_921c1ef5ea1890c6a1cd4dea2dd5b4f6);
+        
+    
+            var icon_43bde53057f45285b6fb3fc22e0ad5ff = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "paw", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_e10dc643f0a1404179c4e5cc0f8db01b.setIcon(icon_43bde53057f45285b6fb3fc22e0ad5ff);
+        
+    
+        var popup_0a840e26b4e1d7b26b16618342d75f28 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1e31026535753163e1921b5122390819 = $(`<div id="html_1e31026535753163e1921b5122390819" style="width: 100.0%; height: 100.0%;">     <b>Carmelite Residential Care</b><br>     <b>Care Type:</b> Residential Care<br>     <b>Places:</b> 73<br>     <b>Address:</b> 7 Spence Avenue, Myrtle Bank, SA 5064     </div>`)[0];
+                popup_0a840e26b4e1d7b26b16618342d75f28.setContent(html_1e31026535753163e1921b5122390819);
+            
+        
+
+        marker_e10dc643f0a1404179c4e5cc0f8db01b.bindPopup(popup_0a840e26b4e1d7b26b16618342d75f28)
+        ;
+
+        
+    
+    
+            var marker_15d87783a25a2c97ffd36f4682e19afb = L.marker(
+                [-34.9528550159905, 138.625198114645],
+                {}
+            ).addTo(marker_cluster_921c1ef5ea1890c6a1cd4dea2dd5b4f6);
+        
+    
+            var icon_036fe367d9fff70fe77e4aaf5554a82c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "paw", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_15d87783a25a2c97ffd36f4682e19afb.setIcon(icon_036fe367d9fff70fe77e4aaf5554a82c);
+        
+    
+        var popup_7f765256d2d7c9977d7cd82e1b09863a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2b571edf914801f16108f9caa61c6aa0 = $(`<div id="html_2b571edf914801f16108f9caa61c6aa0" style="width: 100.0%; height: 100.0%;">     <b>Fullarton Residential Care</b><br>     <b>Care Type:</b> Residential Care<br>     <b>Places:</b> 60<br>     <b>Address:</b> 345 Fullarton Road, Fullarton, SA 5063     </div>`)[0];
+                popup_7f765256d2d7c9977d7cd82e1b09863a.setContent(html_2b571edf914801f16108f9caa61c6aa0);
+            
+        
+
+        marker_15d87783a25a2c97ffd36f4682e19afb.bindPopup(popup_7f765256d2d7c9977d7cd82e1b09863a)
+        ;
+
+        
+    
+    
+            var marker_f7e996e5625bceb7f9723bb5af1dfaac = L.marker(
+                [-34.8771157633699, 138.6357436147],
+                {}
+            ).addTo(marker_cluster_921c1ef5ea1890c6a1cd4dea2dd5b4f6);
+        
+    
+            var icon_e5111422ce743f0221a79fc03cc1bf2e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "paw", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_f7e996e5625bceb7f9723bb5af1dfaac.setIcon(icon_e5111422ce743f0221a79fc03cc1bf2e);
+        
+    
+        var popup_b87feff5e3723f3dd12a70f850ea813f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8c7e086bf709460dac64b8560e109c84 = $(`<div id="html_8c7e086bf709460dac64b8560e109c84" style="width: 100.0%; height: 100.0%;">     <b>John Paul II Village Residential Care</b><br>     <b>Care Type:</b> Residential Care<br>     <b>Places:</b> 40<br>     <b>Address:</b> 6A Dianne Street, Klemzig, SA 5087     </div>`)[0];
+                popup_b87feff5e3723f3dd12a70f850ea813f.setContent(html_8c7e086bf709460dac64b8560e109c84);
+            
+        
+
+        marker_f7e996e5625bceb7f9723bb5af1dfaac.bindPopup(popup_b87feff5e3723f3dd12a70f850ea813f)
+        ;
+
+        
+    
+    
+            var marker_e6eb6b42325e5777112099b1b492709a = L.marker(
+                [-34.8881490226444, 138.60102171219],
+                {}
+            ).addTo(marker_cluster_921c1ef5ea1890c6a1cd4dea2dd5b4f6);
+        
+    
+            var icon_c9f2ca456bbec44a36061cc91bb400eb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "paw", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_e6eb6b42325e5777112099b1b492709a.setIcon(icon_c9f2ca456bbec44a36061cc91bb400eb);
+        
+    
+        var popup_cd2cf7dc84aa08ef621d0fc1efb3e24e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_81ffc34fff3c9adfe2fa624710fdf866 = $(`<div id="html_81ffc34fff3c9adfe2fa624710fdf866" style="width: 100.0%; height: 100.0%;">     <b>Labrina Village Residential Care</b><br>     <b>Care Type:</b> Residential Care<br>     <b>Places:</b> 40<br>     <b>Address:</b> 63-71 Labrina Avenue, Prospect, SA 5082     </div>`)[0];
+                popup_cd2cf7dc84aa08ef621d0fc1efb3e24e.setContent(html_81ffc34fff3c9adfe2fa624710fdf866);
+            
+        
+
+        marker_e6eb6b42325e5777112099b1b492709a.bindPopup(popup_cd2cf7dc84aa08ef621d0fc1efb3e24e)
+        ;
+
+        
+    
+    
+            var marker_a35c8216d1e9ae51b6d796991f753c71 = L.marker(
+                [-35.5300357117919, 138.637153876644],
+                {}
+            ).addTo(marker_cluster_921c1ef5ea1890c6a1cd4dea2dd5b4f6);
+        
+    
+            var icon_d63618db84ce5dfee1740742ce60adea = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "paw", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_a35c8216d1e9ae51b6d796991f753c71.setIcon(icon_d63618db84ce5dfee1740742ce60adea);
+        
+    
+        var popup_f3ef2a2c542f4499a08eab943589402b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_088a703f5687dbb7fdf7020c5ea8ec98 = $(`<div id="html_088a703f5687dbb7fdf7020c5ea8ec98" style="width: 100.0%; height: 100.0%;">     <b>McCracken Views Residential Care</b><br>     <b>Care Type:</b> Residential Care<br>     <b>Places:</b> 60<br>     <b>Address:</b> 31 Adelaide Road, McCracken, SA 5211     </div>`)[0];
+                popup_f3ef2a2c542f4499a08eab943589402b.setContent(html_088a703f5687dbb7fdf7020c5ea8ec98);
+            
+        
+
+        marker_a35c8216d1e9ae51b6d796991f753c71.bindPopup(popup_f3ef2a2c542f4499a08eab943589402b)
+        ;
+
+        
+    
+    
+            var marker_fc8d7bd63a8568525cec9ed1116dac53 = L.marker(
+                [-34.8597821085443, 138.523869398694],
+                {}
+            ).addTo(marker_cluster_921c1ef5ea1890c6a1cd4dea2dd5b4f6);
+        
+    
+            var icon_ccbed90b6aaab00d0f446d1b3cf154d4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "paw", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_fc8d7bd63a8568525cec9ed1116dac53.setIcon(icon_ccbed90b6aaab00d0f446d1b3cf154d4);
+        
+    
+        var popup_8a9e668caf52487c408d4d9036ecd04d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_354a254c799856d236b47a47ecb062a1 = $(`<div id="html_354a254c799856d236b47a47ecb062a1" style="width: 100.0%; height: 100.0%;">     <b>Mount Carmel Residential Care</b><br>     <b>Care Type:</b> Residential Care<br>     <b>Places:</b> 83<br>     <b>Address:</b> 740 Torrens Road, Rosewater, SA 5013     </div>`)[0];
+                popup_8a9e668caf52487c408d4d9036ecd04d.setContent(html_354a254c799856d236b47a47ecb062a1);
+            
+        
+
+        marker_fc8d7bd63a8568525cec9ed1116dac53.bindPopup(popup_8a9e668caf52487c408d4d9036ecd04d)
+        ;
+
+        
+    
+    
+            var marker_09bcc6b25211094cc7f7b0af8de5274b = L.marker(
+                [-35.0654936993826, 138.85106190546],
+                {}
+            ).addTo(marker_cluster_921c1ef5ea1890c6a1cd4dea2dd5b4f6);
+        
+    
+            var icon_e569004636324665e06ac61f8b78d07d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "paw", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_09bcc6b25211094cc7f7b0af8de5274b.setIcon(icon_e569004636324665e06ac61f8b78d07d);
+        
+    
+        var popup_db86e4c7b5bd6c316e73cadf09459ca3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3749fe4517354a5bd3434a48d8885aef = $(`<div id="html_3749fe4517354a5bd3434a48d8885aef" style="width: 100.0%; height: 100.0%;">     <b>Oakfield Lodge Residential Care</b><br>     <b>Care Type:</b> Residential Care<br>     <b>Places:</b> 80<br>     <b>Address:</b> 15 Hawthorn Road, Mount Barker, SA 5251     </div>`)[0];
+                popup_db86e4c7b5bd6c316e73cadf09459ca3.setContent(html_3749fe4517354a5bd3434a48d8885aef);
+            
+        
+
+        marker_09bcc6b25211094cc7f7b0af8de5274b.bindPopup(popup_db86e4c7b5bd6c316e73cadf09459ca3)
+        ;
+
+        
+    
+    
+            var marker_817e160586187d8d7bdc7e27db10f941 = L.marker(
+                [-35.0067008676791, 138.540569527535],
+                {}
+            ).addTo(marker_cluster_921c1ef5ea1890c6a1cd4dea2dd5b4f6);
+        
+    
+            var icon_16bfa5d85efb93709b1f124a1b3ec6ea = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "paw", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_817e160586187d8d7bdc7e27db10f941.setIcon(icon_16bfa5d85efb93709b1f124a1b3ec6ea);
+        
+    
+        var popup_979b5b0fe41aecf0f57c5b42a6af7bbc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_69662f1e73183586569e70ec64c2cd16 = $(`<div id="html_69662f1e73183586569e70ec64c2cd16" style="width: 100.0%; height: 100.0%;">     <b>Oaklands Park Lodge Residential Care</b><br>     <b>Care Type:</b> Residential Care<br>     <b>Places:</b> 70<br>     <b>Address:</b> 393 Morphett Road, Oaklands Park, SA 5046     </div>`)[0];
+                popup_979b5b0fe41aecf0f57c5b42a6af7bbc.setContent(html_69662f1e73183586569e70ec64c2cd16);
+            
+        
+
+        marker_817e160586187d8d7bdc7e27db10f941.bindPopup(popup_979b5b0fe41aecf0f57c5b42a6af7bbc)
+        ;
+
+        
+    
+    
+            var marker_6bbb67c3962918784a4f3faa34d39be8 = L.marker(
+                [-35.1522625249532, 138.520893958827],
+                {}
+            ).addTo(marker_cluster_921c1ef5ea1890c6a1cd4dea2dd5b4f6);
+        
+    
+            var icon_28b0d004270cff2341b84a3943a5ad64 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "paw", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_6bbb67c3962918784a4f3faa34d39be8.setIcon(icon_28b0d004270cff2341b84a3943a5ad64);
+        
+    
+        var popup_cd364934d5b11da078c19d9d40f340fc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6a1b09626cce109914fc8bd8be03d51a = $(`<div id="html_6a1b09626cce109914fc8bd8be03d51a" style="width: 100.0%; height: 100.0%;">     <b>Onkaparinga Lodge Residential Care</b><br>     <b>Care Type:</b> Residential Care<br>     <b>Places:</b> 92<br>     <b>Address:</b> 28 Liddell Drive, Huntfield Heights, SA 5163     </div>`)[0];
+                popup_cd364934d5b11da078c19d9d40f340fc.setContent(html_6a1b09626cce109914fc8bd8be03d51a);
+            
+        
+
+        marker_6bbb67c3962918784a4f3faa34d39be8.bindPopup(popup_cd364934d5b11da078c19d9d40f340fc)
+        ;
+
+        
+    
+    
+            var marker_de73ce40ba9ef487babc9aa2d4acf244 = L.marker(
+                [-35.4911023346246, 138.794347115903],
+                {}
+            ).addTo(marker_cluster_921c1ef5ea1890c6a1cd4dea2dd5b4f6);
+        
+    
+            var icon_2d61bf2698a73bdc520d5aee2da7cda5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "paw", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_de73ce40ba9ef487babc9aa2d4acf244.setIcon(icon_2d61bf2698a73bdc520d5aee2da7cda5);
+        
+    
+        var popup_bb88471b1d34c9b7e48736f0df4a7db5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_67f1c82c9cb578532ded6eec4999ef1d = $(`<div id="html_67f1c82c9cb578532ded6eec4999ef1d" style="width: 100.0%; height: 100.0%;">     <b>Sandpiper Lodge Residential Care</b><br>     <b>Care Type:</b> Residential Care<br>     <b>Places:</b> 81<br>     <b>Address:</b> 35 Washington Street, Goolwa, SA 5214     </div>`)[0];
+                popup_bb88471b1d34c9b7e48736f0df4a7db5.setContent(html_67f1c82c9cb578532ded6eec4999ef1d);
+            
+        
+
+        marker_de73ce40ba9ef487babc9aa2d4acf244.bindPopup(popup_bb88471b1d34c9b7e48736f0df4a7db5)
+        ;
+
+        
+    
+    
+            var marker_751138c50c7178ebeeebcd338fb97e5b = L.marker(
+                [-34.9626289815193, 138.640011936754],
+                {}
+            ).addTo(marker_cluster_921c1ef5ea1890c6a1cd4dea2dd5b4f6);
+        
+    
+            var icon_647d12b51f7c22d866234b6e3e3d9a14 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "paw", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_751138c50c7178ebeeebcd338fb97e5b.setIcon(icon_647d12b51f7c22d866234b6e3e3d9a14);
+        
+    
+        var popup_be87183826e8f1b72dc87de73b6b5757 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_91ff0cd268b14a40542f5f2d93543bd1 = $(`<div id="html_91ff0cd268b14a40542f5f2d93543bd1" style="width: 100.0%; height: 100.0%;">     <b>The Lodge Lourdes Valley Residential Care</b><br>     <b>Care Type:</b> Residential Care<br>     <b>Places:</b> 58<br>     <b>Address:</b> 18 Cross Road, Myrtle Bank, SA 5064     </div>`)[0];
+                popup_be87183826e8f1b72dc87de73b6b5757.setContent(html_91ff0cd268b14a40542f5f2d93543bd1);
+            
+        
+
+        marker_751138c50c7178ebeeebcd338fb97e5b.bindPopup(popup_be87183826e8f1b72dc87de73b6b5757)
+        ;
+
+        
+    
+    
+            var marker_7b49ab7b1a9573902e5d977c4dd87f1d = L.marker(
+                [-34.8245464553748, 138.490331423253],
+                {}
+            ).addTo(marker_cluster_921c1ef5ea1890c6a1cd4dea2dd5b4f6);
+        
+    
+            var icon_038b01631f9bdfbe24bc8b7906ffb4fc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "paw", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_7b49ab7b1a9573902e5d977c4dd87f1d.setIcon(icon_038b01631f9bdfbe24bc8b7906ffb4fc);
+        
+    
+        var popup_3c1f76c13156eaba18ae5d6ac30e5d72 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_377d54e92e325ddda3d9909d04e35208 = $(`<div id="html_377d54e92e325ddda3d9909d04e35208" style="width: 100.0%; height: 100.0%;">     <b>The Philip Kennedy Centre Residential Care</b><br>     <b>Care Type:</b> Residential Care<br>     <b>Places:</b> 170<br>     <b>Address:</b> 477-479 Military Road, Largs Bay, SA 5016     </div>`)[0];
+                popup_3c1f76c13156eaba18ae5d6ac30e5d72.setContent(html_377d54e92e325ddda3d9909d04e35208);
+            
+        
+
+        marker_7b49ab7b1a9573902e5d977c4dd87f1d.bindPopup(popup_3c1f76c13156eaba18ae5d6ac30e5d72)
+        ;
+
+        
+    
+    
+            var marker_1636fb53526b348340b7cd153ff2402f = L.marker(
+                [-34.9558705856086, 138.554093606703],
+                {}
+            ).addTo(marker_cluster_921c1ef5ea1890c6a1cd4dea2dd5b4f6);
+        
+    
+            var icon_b27c0c3d49d20bc3adc10e4c7648b0d2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "paw", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_1636fb53526b348340b7cd153ff2402f.setIcon(icon_b27c0c3d49d20bc3adc10e4c7648b0d2);
+        
+    
+        var popup_ad27792fc843582fdb3a3e501487f08e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f4436228b394beb9293f71310d01cae4 = $(`<div id="html_f4436228b394beb9293f71310d01cae4" style="width: 100.0%; height: 100.0%;">     <b>The Pines Lodge Residential Care</b><br>     <b>Care Type:</b> Residential Care<br>     <b>Places:</b> 144<br>     <b>Address:</b> 342 Marion Road, North Plympton, SA 5037     </div>`)[0];
+                popup_ad27792fc843582fdb3a3e501487f08e.setContent(html_f4436228b394beb9293f71310d01cae4);
+            
+        
+
+        marker_1636fb53526b348340b7cd153ff2402f.bindPopup(popup_ad27792fc843582fdb3a3e501487f08e)
+        ;
+
+        
+    
+    
+            var marker_a7755951fdffafd66f3612ca8a660305 = L.marker(
+                [-34.9354377545267, 138.51070223122],
+                {}
+            ).addTo(marker_cluster_921c1ef5ea1890c6a1cd4dea2dd5b4f6);
+        
+    
+            var icon_e75c3046f4527063a1e60cb389305e59 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "paw", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_a7755951fdffafd66f3612ca8a660305.setIcon(icon_e75c3046f4527063a1e60cb389305e59);
+        
+    
+        var popup_a5b58dc8c2dd904ba453cc12a374be3b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e424d0a420427fad9c19151d2612e4bf = $(`<div id="html_e424d0a420427fad9c19151d2612e4bf" style="width: 100.0%; height: 100.0%;">     <b>West Beach Residential Care</b><br>     <b>Care Type:</b> Residential Care<br>     <b>Places:</b> 80<br>     <b>Address:</b> 655-671 Burbridge Road, West Beach, SA 5024     </div>`)[0];
+                popup_a5b58dc8c2dd904ba453cc12a374be3b.setContent(html_e424d0a420427fad9c19151d2612e4bf);
+            
+        
+
+        marker_a7755951fdffafd66f3612ca8a660305.bindPopup(popup_a5b58dc8c2dd904ba453cc12a374be3b)
+        ;
+
+        
+    
+    
+            var marker_e1931e54b0a47638d8cb2c54fcd7faa1 = L.marker(
+                [-33.93117971146615, 137.6299390072496],
+                {}
+            ).addTo(marker_cluster_921c1ef5ea1890c6a1cd4dea2dd5b4f6);
+        
+    
+            var icon_835cd9f453876d76f25dd7dc38901ef2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flag", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_e1931e54b0a47638d8cb2c54fcd7faa1.setIcon(icon_835cd9f453876d76f25dd7dc38901ef2);
+        
+    
+        var popup_eb7e01f559ba5cf52405ae45a117a595 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6e10d056e5f2f8d94329411c15aad984 = $(`<div id="html_6e10d056e5f2f8d94329411c15aad984" style="width: 100.0%; height: 100.0%;">     <b>Star of the Sea Home for the Aged</b><br>     <b>Care Type:</b> Residential Care<br>     <b>Places:</b> 70<br>     <b>Address:</b> 15 Elizabeth Street, Wallaroo, SA 5556     </div>`)[0];
+                popup_eb7e01f559ba5cf52405ae45a117a595.setContent(html_6e10d056e5f2f8d94329411c15aad984);
+            
+        
+
+        marker_e1931e54b0a47638d8cb2c54fcd7faa1.bindPopup(popup_eb7e01f559ba5cf52405ae45a117a595)
+        ;
+
+        
+    
+    
+            var marker_da99ae71ebb957eea80409f9587cbe9b = L.marker(
+                [-33.184875, 138.017228],
+                {}
+            ).addTo(marker_cluster_921c1ef5ea1890c6a1cd4dea2dd5b4f6);
+        
+    
+            var icon_b90b77d000cf77c3892e05c803ee9e3c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flag", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_da99ae71ebb957eea80409f9587cbe9b.setIcon(icon_b90b77d000cf77c3892e05c803ee9e3c);
+        
+    
+        var popup_f5c1d25f9d1beb111c1f2dcffba7d8b7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c367d92e002b13412cae52751e9622d6 = $(`<div id="html_c367d92e002b13412cae52751e9622d6" style="width: 100.0%; height: 100.0%;">     <b>St Joseph's House</b><br>     <b>Care Type:</b> Residential Care<br>     <b>Places:</b> 67<br>     <b>Address:</b> 22 Norman Street, Port Pirie, SA 5540     </div>`)[0];
+                popup_f5c1d25f9d1beb111c1f2dcffba7d8b7.setContent(html_c367d92e002b13412cae52751e9622d6);
+            
+        
+
+        marker_da99ae71ebb957eea80409f9587cbe9b.bindPopup(popup_f5c1d25f9d1beb111c1f2dcffba7d8b7)
+        ;
+
+        
+    
+    
+            var feature_group_0dd8f83312b7b7b7c8d4a678dc21f08d = L.featureGroup(
+                {}
+            ).addTo(map_227f4ec2420d4d404500c6ee6551735b);
+        
+    
+            var marker_cluster_4647da25acc698d0c981e615590048f9 = L.markerClusterGroup(
+                {}
+            );
+            feature_group_0dd8f83312b7b7b7c8d4a678dc21f08d.addLayer(marker_cluster_4647da25acc698d0c981e615590048f9);
+        
+    
+            var marker_1ea6ccd0afbc31a6d3635b3cb12d0236 = L.marker(
+                [-34.9625108052082, 138.642417470535],
+                {}
+            ).addTo(marker_cluster_4647da25acc698d0c981e615590048f9);
+        
+    
+            var icon_c1deded5231ffbe345c56538ed88bc25 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "paw", "iconColor": "white", "markerColor": "cadetblue", "prefix": "fa"}
+            );
+            marker_1ea6ccd0afbc31a6d3635b3cb12d0236.setIcon(icon_c1deded5231ffbe345c56538ed88bc25);
+        
+    
+        var popup_830f3fbfedc8001fb8adba20881394d5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9dfbdf0c9d5547898406a66fc64b3c07 = $(`<div id="html_9dfbdf0c9d5547898406a66fc64b3c07" style="width: 100.0%; height: 100.0%;">     <b>Carmelite Retirement Living</b><br>     <b>Care Type:</b> Retirement Living<br>     <b>Places:</b> 38<br>     <b>Address:</b> 7 Spence Avenue, Myrtle Bank, SA 5064     </div>`)[0];
+                popup_830f3fbfedc8001fb8adba20881394d5.setContent(html_9dfbdf0c9d5547898406a66fc64b3c07);
+            
+        
+
+        marker_1ea6ccd0afbc31a6d3635b3cb12d0236.bindPopup(popup_830f3fbfedc8001fb8adba20881394d5)
+        ;
+
+        
+    
+    
+            var marker_e2ca6907edd847663804230efc2bff57 = L.marker(
+                [-34.9655404775686, 138.585624636754],
+                {}
+            ).addTo(marker_cluster_4647da25acc698d0c981e615590048f9);
+        
+    
+            var icon_720281c7ac1f02d5c57240e430820508 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "paw", "iconColor": "white", "markerColor": "cadetblue", "prefix": "fa"}
+            );
+            marker_e2ca6907edd847663804230efc2bff57.setIcon(icon_720281c7ac1f02d5c57240e430820508);
+        
+    
+        var popup_009ac341406c1a0973b81c49bd56e2c8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e1c2355db8068b0d143fe0c682150eb9 = $(`<div id="html_e1c2355db8068b0d143fe0c682150eb9" style="width: 100.0%; height: 100.0%;">     <b>Clarence Park Retirement Living</b><br>     <b>Care Type:</b> Retirement Living<br>     <b>Places:</b> 4<br>     <b>Address:</b> 49 George Street, Clarence Park, SA 5034     </div>`)[0];
+                popup_009ac341406c1a0973b81c49bd56e2c8.setContent(html_e1c2355db8068b0d143fe0c682150eb9);
+            
+        
+
+        marker_e2ca6907edd847663804230efc2bff57.bindPopup(popup_009ac341406c1a0973b81c49bd56e2c8)
+        ;
+
+        
+    
+    
+            var marker_4c08e4aef66e3c6b3599db3c0eeabffd = L.marker(
+                [-34.96207283005, 138.639383631346],
+                {}
+            ).addTo(marker_cluster_4647da25acc698d0c981e615590048f9);
+        
+    
+            var icon_0a9a8582a178f352a81e9acc7709a517 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "paw", "iconColor": "white", "markerColor": "cadetblue", "prefix": "fa"}
+            );
+            marker_4c08e4aef66e3c6b3599db3c0eeabffd.setIcon(icon_0a9a8582a178f352a81e9acc7709a517);
+        
+    
+        var popup_f5360d2dba362cf4c33f38a48b830640 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0df4f47cbb3cbcae95dd36e7b13897c7 = $(`<div id="html_0df4f47cbb3cbcae95dd36e7b13897c7" style="width: 100.0%; height: 100.0%;">     <b>Coach House Mews Retirement Living</b><br>     <b>Care Type:</b> Retirement Living<br>     <b>Places:</b> 20<br>     <b>Address:</b> 18 Cross Road, Myrtle Bank, SA 5064     </div>`)[0];
+                popup_f5360d2dba362cf4c33f38a48b830640.setContent(html_0df4f47cbb3cbcae95dd36e7b13897c7);
+            
+        
+
+        marker_4c08e4aef66e3c6b3599db3c0eeabffd.bindPopup(popup_f5360d2dba362cf4c33f38a48b830640)
+        ;
+
+        
+    
+    
+            var marker_493deae0052b93bed358f16a92255fc4 = L.marker(
+                [-34.8812096680032, 138.563986602787],
+                {}
+            ).addTo(marker_cluster_4647da25acc698d0c981e615590048f9);
+        
+    
+            var icon_c6f8e79fc1daf6b9fb7a5ad8cb1b9e32 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "paw", "iconColor": "white", "markerColor": "cadetblue", "prefix": "fa"}
+            );
+            marker_493deae0052b93bed358f16a92255fc4.setIcon(icon_c6f8e79fc1daf6b9fb7a5ad8cb1b9e32);
+        
+    
+        var popup_1ae000bb5ddba6d4bdb7706726e6efc0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a1294bfb881e91cadc2adc41a38a4f91 = $(`<div id="html_a1294bfb881e91cadc2adc41a38a4f91" style="width: 100.0%; height: 100.0%;">     <b>Croydon Park Retirement Living</b><br>     <b>Care Type:</b> Retirement Living<br>     <b>Places:</b> 10<br>     <b>Address:</b> 29 Tungara Avenue, Croydon Park, SA 5008     </div>`)[0];
+                popup_1ae000bb5ddba6d4bdb7706726e6efc0.setContent(html_a1294bfb881e91cadc2adc41a38a4f91);
+            
+        
+
+        marker_493deae0052b93bed358f16a92255fc4.bindPopup(popup_1ae000bb5ddba6d4bdb7706726e6efc0)
+        ;
+
+        
+    
+    
+            var marker_94a2bbc27cbb6a648ed7000a44d2dfcf = L.marker(
+                [-34.9614273935805, 138.642359657666],
+                {}
+            ).addTo(marker_cluster_4647da25acc698d0c981e615590048f9);
+        
+    
+            var icon_d874d9b84140511f55d02d7a4429a3f4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "paw", "iconColor": "white", "markerColor": "cadetblue", "prefix": "fa"}
+            );
+            marker_94a2bbc27cbb6a648ed7000a44d2dfcf.setIcon(icon_d874d9b84140511f55d02d7a4429a3f4);
+        
+    
+        var popup_9c623593727c984f13cf3c7483094fc3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_81acc4377a37cfd17f39536a7648fa48 = $(`<div id="html_81acc4377a37cfd17f39536a7648fa48" style="width: 100.0%; height: 100.0%;">     <b>Glen Woodley Estate Retirement Living</b><br>     <b>Care Type:</b> Retirement Living<br>     <b>Places:</b> 43<br>     <b>Address:</b> 360 Glen Osmond Road, Myrtle Bank, SA 5064     </div>`)[0];
+                popup_9c623593727c984f13cf3c7483094fc3.setContent(html_81acc4377a37cfd17f39536a7648fa48);
+            
+        
+
+        marker_94a2bbc27cbb6a648ed7000a44d2dfcf.bindPopup(popup_9c623593727c984f13cf3c7483094fc3)
+        ;
+
+        
+    
+    
+            var marker_c7467cca193b3bc281ebb0c9b79543f4 = L.marker(
+                [-34.9614273935805, 138.642359657666],
+                {}
+            ).addTo(marker_cluster_4647da25acc698d0c981e615590048f9);
+        
+    
+            var icon_d46649b443dbdba0f7c692d0f55bb43d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "paw", "iconColor": "white", "markerColor": "cadetblue", "prefix": "fa"}
+            );
+            marker_c7467cca193b3bc281ebb0c9b79543f4.setIcon(icon_d46649b443dbdba0f7c692d0f55bb43d);
+        
+    
+        var popup_f728ab87df08ef1f570a9a945f854ed5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_53df6cf1f96cb9695f00cfd2c95167c2 = $(`<div id="html_53df6cf1f96cb9695f00cfd2c95167c2" style="width: 100.0%; height: 100.0%;">     <b>Glen Woodley Serviced Apartments</b><br>     <b>Care Type:</b> Retirement Living<br>     <b>Places:</b> 32<br>     <b>Address:</b> 360 Glen Osmond Road, Myrtle Bank, SA 5064     </div>`)[0];
+                popup_f728ab87df08ef1f570a9a945f854ed5.setContent(html_53df6cf1f96cb9695f00cfd2c95167c2);
+            
+        
+
+        marker_c7467cca193b3bc281ebb0c9b79543f4.bindPopup(popup_f728ab87df08ef1f570a9a945f854ed5)
+        ;
+
+        
+    
+    
+            var marker_ab8a52ec5d4a1c7d132fdfbc7b77a80d = L.marker(
+                [-34.9708911291149, 138.518243836733],
+                {}
+            ).addTo(marker_cluster_4647da25acc698d0c981e615590048f9);
+        
+    
+            var icon_f891e3808b8b8122e86d6d8a5205e85d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "paw", "iconColor": "white", "markerColor": "cadetblue", "prefix": "fa"}
+            );
+            marker_ab8a52ec5d4a1c7d132fdfbc7b77a80d.setIcon(icon_f891e3808b8b8122e86d6d8a5205e85d);
+        
+    
+        var popup_18e2ed23ec3dac9a48a3c1a8083a474b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b103137c8b3e5649e36dbc82db1051cd = $(`<div id="html_b103137c8b3e5649e36dbc82db1051cd" style="width: 100.0%; height: 100.0%;">     <b>Glenelg North Retirement Living</b><br>     <b>Care Type:</b> Retirement Living<br>     <b>Places:</b> 15<br>     <b>Address:</b> 18 MacFarlane Street, Glenelg North, SA 5045     </div>`)[0];
+                popup_18e2ed23ec3dac9a48a3c1a8083a474b.setContent(html_b103137c8b3e5649e36dbc82db1051cd);
+            
+        
+
+        marker_ab8a52ec5d4a1c7d132fdfbc7b77a80d.bindPopup(popup_18e2ed23ec3dac9a48a3c1a8083a474b)
+        ;
+
+        
+    
+    
+            var marker_99a5a5731cf79f732a6536cd2c5fcd4e = L.marker(
+                [-34.9688814758957, 138.608796746561],
+                {}
+            ).addTo(marker_cluster_4647da25acc698d0c981e615590048f9);
+        
+    
+            var icon_34739cc0f4e291575d50741c4866f146 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "paw", "iconColor": "white", "markerColor": "cadetblue", "prefix": "fa"}
+            );
+            marker_99a5a5731cf79f732a6536cd2c5fcd4e.setIcon(icon_34739cc0f4e291575d50741c4866f146);
+        
+    
+        var popup_3a29572f83e74a9c3bf013a17c418318 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_812c3f77ffe04c5a37dcd5d831d7d1ac = $(`<div id="html_812c3f77ffe04c5a37dcd5d831d7d1ac" style="width: 100.0%; height: 100.0%;">     <b>Hawthorn Retirement Living</b><br>     <b>Care Type:</b> Retirement Living<br>     <b>Places:</b> 8<br>     <b>Address:</b> 72 Belair Road, Hawthorn, SA 5062     </div>`)[0];
+                popup_3a29572f83e74a9c3bf013a17c418318.setContent(html_812c3f77ffe04c5a37dcd5d831d7d1ac);
+            
+        
+
+        marker_99a5a5731cf79f732a6536cd2c5fcd4e.bindPopup(popup_3a29572f83e74a9c3bf013a17c418318)
+        ;
+
+        
+    
+    
+            var marker_ee75964c5e379d421ae235227fe4801e = L.marker(
+                [-34.9627498194236, 138.639630038577],
+                {}
+            ).addTo(marker_cluster_4647da25acc698d0c981e615590048f9);
+        
+    
+            var icon_98ff0812cac6de209f1868a58315a93f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "paw", "iconColor": "white", "markerColor": "cadetblue", "prefix": "fa"}
+            );
+            marker_ee75964c5e379d421ae235227fe4801e.setIcon(icon_98ff0812cac6de209f1868a58315a93f);
+        
+    
+        var popup_8836777df09c747a9c0126e470c60d18 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6f2e5654ec4fea3212784d37232b6ff3 = $(`<div id="html_6f2e5654ec4fea3212784d37232b6ff3" style="width: 100.0%; height: 100.0%;">     <b>Heritage Apartments Retirement Living</b><br>     <b>Care Type:</b> Retirement Living<br>     <b>Places:</b> 36<br>     <b>Address:</b> 18 Cross Road, Myrtle Bank, SA 5064     </div>`)[0];
+                popup_8836777df09c747a9c0126e470c60d18.setContent(html_6f2e5654ec4fea3212784d37232b6ff3);
+            
+        
+
+        marker_ee75964c5e379d421ae235227fe4801e.bindPopup(popup_8836777df09c747a9c0126e470c60d18)
+        ;
+
+        
+    
+    
+            var marker_1003d35f35e7edc7f3e12d3584e90739 = L.marker(
+                [-34.9703226046345, 138.613007308505],
+                {}
+            ).addTo(marker_cluster_4647da25acc698d0c981e615590048f9);
+        
+    
+            var icon_b88478a5fc67cf9560c8762eeaa148c3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "paw", "iconColor": "white", "markerColor": "cadetblue", "prefix": "fa"}
+            );
+            marker_1003d35f35e7edc7f3e12d3584e90739.setIcon(icon_b88478a5fc67cf9560c8762eeaa148c3);
+        
+    
+        var popup_9e43385dee712ba10fc2f293684d55a1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2b4724052d44ccc7ceeba9e475697f59 = $(`<div id="html_2b4724052d44ccc7ceeba9e475697f59" style="width: 100.0%; height: 100.0%;">     <b>Kingswood Retirement Living</b><br>     <b>Care Type:</b> Retirement Living<br>     <b>Places:</b> 12<br>     <b>Address:</b> 30 Seafield Avenue, Kingswood, SA 5062     </div>`)[0];
+                popup_9e43385dee712ba10fc2f293684d55a1.setContent(html_2b4724052d44ccc7ceeba9e475697f59);
+            
+        
+
+        marker_1003d35f35e7edc7f3e12d3584e90739.bindPopup(popup_9e43385dee712ba10fc2f293684d55a1)
+        ;
+
+        
+    
+    
+            var marker_820be80553d71e53ed5c7d936b0b986c = L.marker(
+                [-34.9328863310689, 138.652536080906],
+                {}
+            ).addTo(marker_cluster_4647da25acc698d0c981e615590048f9);
+        
+    
+            var icon_80c4eaa340d83439fc4da2bb8ecae5bf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "paw", "iconColor": "white", "markerColor": "cadetblue", "prefix": "fa"}
+            );
+            marker_820be80553d71e53ed5c7d936b0b986c.setIcon(icon_80c4eaa340d83439fc4da2bb8ecae5bf);
+        
+    
+        var popup_d10b8a101e1893f3a62483da5e8f1f67 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a67c4d94b6d9e8be8f6253acd6be9290 = $(`<div id="html_a67c4d94b6d9e8be8f6253acd6be9290" style="width: 100.0%; height: 100.0%;">     <b>Leabrook Retirement Living</b><br>     <b>Care Type:</b> Retirement Living<br>     <b>Places:</b> 4<br>     <b>Address:</b> 5 Jean Street, Leabrook, SA 5065     </div>`)[0];
+                popup_d10b8a101e1893f3a62483da5e8f1f67.setContent(html_a67c4d94b6d9e8be8f6253acd6be9290);
+            
+        
+
+        marker_820be80553d71e53ed5c7d936b0b986c.bindPopup(popup_d10b8a101e1893f3a62483da5e8f1f67)
+        ;
+
+        
+    
+    
+            var marker_386ab8979978192c2acd8e698c8afaa3 = L.marker(
+                [-34.9080984824158, 138.680637585201],
+                {}
+            ).addTo(marker_cluster_4647da25acc698d0c981e615590048f9);
+        
+    
+            var icon_09f2ecfed02348228f6ebc76756e6248 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "paw", "iconColor": "white", "markerColor": "cadetblue", "prefix": "fa"}
+            );
+            marker_386ab8979978192c2acd8e698c8afaa3.setIcon(icon_09f2ecfed02348228f6ebc76756e6248);
+        
+    
+        var popup_2267d076e57d21b3e42090331b6986cb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bed7b0779dac499fb1f89296099b1963 = $(`<div id="html_bed7b0779dac499fb1f89296099b1963" style="width: 100.0%; height: 100.0%;">     <b>Magill Retirement Living</b><br>     <b>Care Type:</b> Retirement Living<br>     <b>Places:</b> 9<br>     <b>Address:</b> 63 Vine Street, Magill, SA 5072     </div>`)[0];
+                popup_2267d076e57d21b3e42090331b6986cb.setContent(html_bed7b0779dac499fb1f89296099b1963);
+            
+        
+
+        marker_386ab8979978192c2acd8e698c8afaa3.bindPopup(popup_2267d076e57d21b3e42090331b6986cb)
+        ;
+
+        
+    
+    
+            var marker_bead9f1a7cb9da488818be2d88aae1df = L.marker(
+                [-35.009264453734, 138.556521887656],
+                {}
+            ).addTo(marker_cluster_4647da25acc698d0c981e615590048f9);
+        
+    
+            var icon_18f9c321aa98f28762ada78744a36881 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "paw", "iconColor": "white", "markerColor": "cadetblue", "prefix": "fa"}
+            );
+            marker_bead9f1a7cb9da488818be2d88aae1df.setIcon(icon_18f9c321aa98f28762ada78744a36881);
+        
+    
+        var popup_5c11f26a272dd3b9ba266498a47a3898 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_120d417b49d1a3063fc7426e5864b783 = $(`<div id="html_120d417b49d1a3063fc7426e5864b783" style="width: 100.0%; height: 100.0%;">     <b>Marion Retirement Living</b><br>     <b>Care Type:</b> Retirement Living<br>     <b>Places:</b> 20<br>     <b>Address:</b> 60 George Street, Marion, SA 5043     </div>`)[0];
+                popup_5c11f26a272dd3b9ba266498a47a3898.setContent(html_120d417b49d1a3063fc7426e5864b783);
+            
+        
+
+        marker_bead9f1a7cb9da488818be2d88aae1df.bindPopup(popup_5c11f26a272dd3b9ba266498a47a3898)
+        ;
+
+        
+    
+    
+            var marker_83fe8eaf0d194c1941322066a544c485 = L.marker(
+                [-35.0191436972857, 138.520879934912],
+                {}
+            ).addTo(marker_cluster_4647da25acc698d0c981e615590048f9);
+        
+    
+            var icon_dc85754f5e01f748c894e8d986ac1c1c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "paw", "iconColor": "white", "markerColor": "cadetblue", "prefix": "fa"}
+            );
+            marker_83fe8eaf0d194c1941322066a544c485.setIcon(icon_dc85754f5e01f748c894e8d986ac1c1c);
+        
+    
+        var popup_753e2850200232222aa59a99b6d2b09b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a84f2fc19bb2d5497c61b4718c50d138 = $(`<div id="html_a84f2fc19bb2d5497c61b4718c50d138" style="width: 100.0%; height: 100.0%;">     <b>McAuley Mews Retirement Living</b><br>     <b>Care Type:</b> Retirement Living<br>     <b>Places:</b> 9<br>     <b>Address:</b> 17 Old Beach Road, Brighton, SA 5048     </div>`)[0];
+                popup_753e2850200232222aa59a99b6d2b09b.setContent(html_a84f2fc19bb2d5497c61b4718c50d138);
+            
+        
+
+        marker_83fe8eaf0d194c1941322066a544c485.bindPopup(popup_753e2850200232222aa59a99b6d2b09b)
+        ;
+
+        
+    
+    
+            var marker_9c65f4a394c4b550c58eb34e2ce95341 = L.marker(
+                [-37.8408240991361, 140.79216732826],
+                {}
+            ).addTo(marker_cluster_4647da25acc698d0c981e615590048f9);
+        
+    
+            var icon_1ce0ffa8c0aca5a6625d468b8c494fc8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "paw", "iconColor": "white", "markerColor": "cadetblue", "prefix": "fa"}
+            );
+            marker_9c65f4a394c4b550c58eb34e2ce95341.setIcon(icon_1ce0ffa8c0aca5a6625d468b8c494fc8);
+        
+    
+        var popup_1861c0a55eb249d0fde8464cdfda012b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a0b89b7322b4e0fbdeeeea3391857a50 = $(`<div id="html_a0b89b7322b4e0fbdeeeea3391857a50" style="width: 100.0%; height: 100.0%;">     <b>Mount Gambier Retirement Living</b><br>     <b>Care Type:</b> Retirement Living<br>     <b>Places:</b> 31<br>     <b>Address:</b> 5 Holder Street, Mount Gambier, SA 5290     </div>`)[0];
+                popup_1861c0a55eb249d0fde8464cdfda012b.setContent(html_a0b89b7322b4e0fbdeeeea3391857a50);
+            
+        
+
+        marker_9c65f4a394c4b550c58eb34e2ce95341.bindPopup(popup_1861c0a55eb249d0fde8464cdfda012b)
+        ;
+
+        
+    
+    
+            var marker_8cdbb66ac976317de65d498c837fb386 = L.marker(
+                [-34.9225905327825, 138.63843213122],
+                {}
+            ).addTo(marker_cluster_4647da25acc698d0c981e615590048f9);
+        
+    
+            var icon_17939bcd5aa8b48374eb5232f0639dd9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "paw", "iconColor": "white", "markerColor": "cadetblue", "prefix": "fa"}
+            );
+            marker_8cdbb66ac976317de65d498c837fb386.setIcon(icon_17939bcd5aa8b48374eb5232f0639dd9);
+        
+    
+        var popup_6c250611f353a9aa80a03d1a6bac012b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7b55d73c01e7001bc5ce04c6bdd65072 = $(`<div id="html_7b55d73c01e7001bc5ce04c6bdd65072" style="width: 100.0%; height: 100.0%;">     <b>Norwood Retirement Living</b><br>     <b>Care Type:</b> Retirement Living<br>     <b>Places:</b> 8<br>     <b>Address:</b> 71 Queen Street, Norwood, SA 5067     </div>`)[0];
+                popup_6c250611f353a9aa80a03d1a6bac012b.setContent(html_7b55d73c01e7001bc5ce04c6bdd65072);
+            
+        
+
+        marker_8cdbb66ac976317de65d498c837fb386.bindPopup(popup_6c250611f353a9aa80a03d1a6bac012b)
+        ;
+
+        
+    
+    
+            var marker_ce4f3e0ce042600023d4a0335347595c = L.marker(
+                [-34.954744079418, 138.553391016524],
+                {}
+            ).addTo(marker_cluster_4647da25acc698d0c981e615590048f9);
+        
+    
+            var icon_4745a5ad30a11db00515e361527cb08f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "paw", "iconColor": "white", "markerColor": "cadetblue", "prefix": "fa"}
+            );
+            marker_ce4f3e0ce042600023d4a0335347595c.setIcon(icon_4745a5ad30a11db00515e361527cb08f);
+        
+    
+        var popup_2599ee68bd492dff03069ee8e2b64c67 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_75622297218a02bb1f31d211f9f96337 = $(`<div id="html_75622297218a02bb1f31d211f9f96337" style="width: 100.0%; height: 100.0%;">     <b>O'Grady Court Retirement Living</b><br>     <b>Care Type:</b> Retirement Living<br>     <b>Places:</b> 52<br>     <b>Address:</b> 332 Marion Road, North Plympton, SA 5037     </div>`)[0];
+                popup_2599ee68bd492dff03069ee8e2b64c67.setContent(html_75622297218a02bb1f31d211f9f96337);
+            
+        
+
+        marker_ce4f3e0ce042600023d4a0335347595c.bindPopup(popup_2599ee68bd492dff03069ee8e2b64c67)
+        ;
+
+        
+    
+    
+            var marker_9b66214f3e55235ae461c6da8a36bd8f = L.marker(
+                [-35.0666792106118, 138.850395223263],
+                {}
+            ).addTo(marker_cluster_4647da25acc698d0c981e615590048f9);
+        
+    
+            var icon_986881f4a8884f540552ed4b5a3fe496 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "paw", "iconColor": "white", "markerColor": "cadetblue", "prefix": "fa"}
+            );
+            marker_9b66214f3e55235ae461c6da8a36bd8f.setIcon(icon_986881f4a8884f540552ed4b5a3fe496);
+        
+    
+        var popup_d54f0edc491a897eae2c6c7c0107e0f6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6175594c5e32941191b20a25b57c0ec2 = $(`<div id="html_6175594c5e32941191b20a25b57c0ec2" style="width: 100.0%; height: 100.0%;">     <b>Oakfield Rise Retirement Estate</b><br>     <b>Care Type:</b> Retirement Living<br>     <b>Places:</b> 186<br>     <b>Address:</b> 19 Hawthorn Road, Mount Barker, SA 5251     </div>`)[0];
+                popup_d54f0edc491a897eae2c6c7c0107e0f6.setContent(html_6175594c5e32941191b20a25b57c0ec2);
+            
+        
+
+        marker_9b66214f3e55235ae461c6da8a36bd8f.bindPopup(popup_d54f0edc491a897eae2c6c7c0107e0f6)
+        ;
+
+        
+    
+    
+            var marker_547247ec7fcca80c8f684c10d18eed71 = L.marker(
+                [-35.0065377883169, 138.541192612824],
+                {}
+            ).addTo(marker_cluster_4647da25acc698d0c981e615590048f9);
+        
+    
+            var icon_0ae767d80ceeed1d45447349f66fb839 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "paw", "iconColor": "white", "markerColor": "cadetblue", "prefix": "fa"}
+            );
+            marker_547247ec7fcca80c8f684c10d18eed71.setIcon(icon_0ae767d80ceeed1d45447349f66fb839);
+        
+    
+        var popup_62875a5061f0b5a0161eaa9e0e0133d4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3e9e9ef5a8298e830b67517d8ce17efb = $(`<div id="html_3e9e9ef5a8298e830b67517d8ce17efb" style="width: 100.0%; height: 100.0%;">     <b>Oaklands Park Retirement Living</b><br>     <b>Care Type:</b> Retirement Living<br>     <b>Places:</b> 46<br>     <b>Address:</b> 395 Morphett Road, Oaklands Park, SA 5046     </div>`)[0];
+                popup_62875a5061f0b5a0161eaa9e0e0133d4.setContent(html_3e9e9ef5a8298e830b67517d8ce17efb);
+            
+        
+
+        marker_547247ec7fcca80c8f684c10d18eed71.bindPopup(popup_62875a5061f0b5a0161eaa9e0e0133d4)
+        ;
+
+        
+    
+    
+            var marker_14a6c21fa67e1b14d3e6835ad0528db4 = L.marker(
+                [-34.9024834009672, 138.639157277238],
+                {}
+            ).addTo(marker_cluster_4647da25acc698d0c981e615590048f9);
+        
+    
+            var icon_989180ff447724b1f19c21d4fd94229b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "paw", "iconColor": "white", "markerColor": "cadetblue", "prefix": "fa"}
+            );
+            marker_14a6c21fa67e1b14d3e6835ad0528db4.setIcon(icon_989180ff447724b1f19c21d4fd94229b);
+        
+    
+        var popup_842f39fe59b186e8c5829919dfa591c9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3aadfb5a2c5ee84e51fd427a8a43ad85 = $(`<div id="html_3aadfb5a2c5ee84e51fd427a8a43ad85" style="width: 100.0%; height: 100.0%;">     <b>Payneham Retirement Living</b><br>     <b>Care Type:</b> Retirement Living<br>     <b>Places:</b> 28<br>     <b>Address:</b> 73 Portrush Road, Payneham, SA 5070     </div>`)[0];
+                popup_842f39fe59b186e8c5829919dfa591c9.setContent(html_3aadfb5a2c5ee84e51fd427a8a43ad85);
+            
+        
+
+        marker_14a6c21fa67e1b14d3e6835ad0528db4.bindPopup(popup_842f39fe59b186e8c5829919dfa591c9)
+        ;
+
+        
+    
+    
+            var marker_934b272765bb1c907fd706f9afb4db8a = L.marker(
+                [-34.8240294289752, 138.488970048399],
+                {}
+            ).addTo(marker_cluster_4647da25acc698d0c981e615590048f9);
+        
+    
+            var icon_0cc651c75d6d5a365d5f36a78e799eb7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "paw", "iconColor": "white", "markerColor": "cadetblue", "prefix": "fa"}
+            );
+            marker_934b272765bb1c907fd706f9afb4db8a.setIcon(icon_0cc651c75d6d5a365d5f36a78e799eb7);
+        
+    
+        var popup_55df6aebfad36346fe0d2bbfdf2442f0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0a4507b42cefb040d8b970b0bf917d81 = $(`<div id="html_0a4507b42cefb040d8b970b0bf917d81" style="width: 100.0%; height: 100.0%;">     <b>Peninsula Retirement Living</b><br>     <b>Care Type:</b> Retirement Living<br>     <b>Places:</b> 24<br>     <b>Address:</b> 20 Everard Street, Largs Bay, SA 5016     </div>`)[0];
+                popup_55df6aebfad36346fe0d2bbfdf2442f0.setContent(html_0a4507b42cefb040d8b970b0bf917d81);
+            
+        
+
+        marker_934b272765bb1c907fd706f9afb4db8a.bindPopup(popup_55df6aebfad36346fe0d2bbfdf2442f0)
+        ;
+
+        
+    
+    
+            var marker_a9b1f98394c18fb6e4f5e9940a8c9739 = L.marker(
+                [-34.9495853666168, 138.552888967432],
+                {}
+            ).addTo(marker_cluster_4647da25acc698d0c981e615590048f9);
+        
+    
+            var icon_38e9de4ab3ed839e6c1c7862880a8862 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "paw", "iconColor": "white", "markerColor": "cadetblue", "prefix": "fa"}
+            );
+            marker_a9b1f98394c18fb6e4f5e9940a8c9739.setIcon(icon_38e9de4ab3ed839e6c1c7862880a8862);
+        
+    
+        var popup_003bf59b991e59276c89c06e9b390271 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8c6fb5dd2067e0008214203eb4a0e91e = $(`<div id="html_8c6fb5dd2067e0008214203eb4a0e91e" style="width: 100.0%; height: 100.0%;">     <b>Pine Springs Retirement Living</b><br>     <b>Care Type:</b> Retirement Living<br>     <b>Places:</b> 46<br>     <b>Address:</b> 3 Harris Street, Netley, SA 5037     </div>`)[0];
+                popup_003bf59b991e59276c89c06e9b390271.setContent(html_8c6fb5dd2067e0008214203eb4a0e91e);
+            
+        
+
+        marker_a9b1f98394c18fb6e4f5e9940a8c9739.bindPopup(popup_003bf59b991e59276c89c06e9b390271)
+        ;
+
+        
+    
+    
+            var marker_e141238746c826e5506db028ae1a46e6 = L.marker(
+                [-34.9541550469151, 138.551665168019],
+                {}
+            ).addTo(marker_cluster_4647da25acc698d0c981e615590048f9);
+        
+    
+            var icon_315e3765ec3f58610803bda5f5f21a2a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "paw", "iconColor": "white", "markerColor": "cadetblue", "prefix": "fa"}
+            );
+            marker_e141238746c826e5506db028ae1a46e6.setIcon(icon_315e3765ec3f58610803bda5f5f21a2a);
+        
+    
+        var popup_7753eca207c3482b9675fd8e46563292 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d6c82e773463b4b848f10bc8719b5038 = $(`<div id="html_d6c82e773463b4b848f10bc8719b5038" style="width: 100.0%; height: 100.0%;">     <b>Pines Close Retirement Living</b><br>     <b>Care Type:</b> Retirement Living<br>     <b>Places:</b> 8<br>     <b>Address:</b> 2 Playford Avenue, Netley, SA 5037     </div>`)[0];
+                popup_7753eca207c3482b9675fd8e46563292.setContent(html_d6c82e773463b4b848f10bc8719b5038);
+            
+        
+
+        marker_e141238746c826e5506db028ae1a46e6.bindPopup(popup_7753eca207c3482b9675fd8e46563292)
+        ;
+
+        
+    
+    
+            var marker_43add8e5c899e13d505adad1bb3498df = L.marker(
+                [-34.8317146954318, 138.615947296849],
+                {}
+            ).addTo(marker_cluster_4647da25acc698d0c981e615590048f9);
+        
+    
+            var icon_13bb8d7b45306662e4ffa1d8267d4be3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "paw", "iconColor": "white", "markerColor": "cadetblue", "prefix": "fa"}
+            );
+            marker_43add8e5c899e13d505adad1bb3498df.setIcon(icon_13bb8d7b45306662e4ffa1d8267d4be3);
+        
+    
+        var popup_fc3b11e3c2513af0d9fb789505e0b161 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c348c9a01ac4eab395260325968a890d = $(`<div id="html_c348c9a01ac4eab395260325968a890d" style="width: 100.0%; height: 100.0%;">     <b>Pooraka Retirement Living</b><br>     <b>Care Type:</b> Retirement Living<br>     <b>Places:</b> 36<br>     <b>Address:</b> 31 Royal Avenue, Pooraka, SA 5095     </div>`)[0];
+                popup_fc3b11e3c2513af0d9fb789505e0b161.setContent(html_c348c9a01ac4eab395260325968a890d);
+            
+        
+
+        marker_43add8e5c899e13d505adad1bb3498df.bindPopup(popup_fc3b11e3c2513af0d9fb789505e0b161)
+        ;
+
+        
+    
+    
+            var marker_21c418c187483238f0e1226a6253538a = L.marker(
+                [-34.8840133701386, 138.597135167408],
+                {}
+            ).addTo(marker_cluster_4647da25acc698d0c981e615590048f9);
+        
+    
+            var icon_577b0386e9e7bb2682edf9e91b898217 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "paw", "iconColor": "white", "markerColor": "cadetblue", "prefix": "fa"}
+            );
+            marker_21c418c187483238f0e1226a6253538a.setIcon(icon_577b0386e9e7bb2682edf9e91b898217);
+        
+    
+        var popup_9fb6814508c9d8865aae39711c3b6de9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_30d5b563a024cb0f19d13ed5a1709bcb = $(`<div id="html_30d5b563a024cb0f19d13ed5a1709bcb" style="width: 100.0%; height: 100.0%;">     <b>Prospect Retirement Living</b><br>     <b>Care Type:</b> Retirement Living<br>     <b>Places:</b> 25<br>     <b>Address:</b> 23 Alpha Road, Prospect, SA 5082     </div>`)[0];
+                popup_9fb6814508c9d8865aae39711c3b6de9.setContent(html_30d5b563a024cb0f19d13ed5a1709bcb);
+            
+        
+
+        marker_21c418c187483238f0e1226a6253538a.bindPopup(popup_9fb6814508c9d8865aae39711c3b6de9)
+        ;
+
+        
+    
+    
+            var marker_d30147496ca678e0556f86a3e188f109 = L.marker(
+                [-35.1653581073998, 138.503815167411],
+                {}
+            ).addTo(marker_cluster_4647da25acc698d0c981e615590048f9);
+        
+    
+            var icon_5a4860663c60819fd2802624cab1d760 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "paw", "iconColor": "white", "markerColor": "cadetblue", "prefix": "fa"}
+            );
+            marker_d30147496ca678e0556f86a3e188f109.setIcon(icon_5a4860663c60819fd2802624cab1d760);
+        
+    
+        var popup_a33d534087c4a9659d0fe2861f8d1af8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1a74fa2b9600581be322f4fccaa92b6e = $(`<div id="html_1a74fa2b9600581be322f4fccaa92b6e" style="width: 100.0%; height: 100.0%;">     <b>Riverpoint Retirement Estate</b><br>     <b>Care Type:</b> Retirement Living<br>     <b>Places:</b> 107<br>     <b>Address:</b> 89 Serafino Drive, Noarlunga Downs, SA 5168     </div>`)[0];
+                popup_a33d534087c4a9659d0fe2861f8d1af8.setContent(html_1a74fa2b9600581be322f4fccaa92b6e);
+            
+        
+
+        marker_d30147496ca678e0556f86a3e188f109.bindPopup(popup_a33d534087c4a9659d0fe2861f8d1af8)
+        ;
+
+        
+    
+    
+            var marker_46c2b53a88bbc2eabca20e673f64529a = L.marker(
+                [-35.4973181290417, 138.790477414059],
+                {}
+            ).addTo(marker_cluster_4647da25acc698d0c981e615590048f9);
+        
+    
+            var icon_9083a5e9132bc43555ed72b4ce415ae8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "paw", "iconColor": "white", "markerColor": "cadetblue", "prefix": "fa"}
+            );
+            marker_46c2b53a88bbc2eabca20e673f64529a.setIcon(icon_9083a5e9132bc43555ed72b4ce415ae8);
+        
+    
+        var popup_3c9506281f156a52aaaa2c79c80b8954 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f9863dec64d448d31479a5cf2abb5943 = $(`<div id="html_f9863dec64d448d31479a5cf2abb5943" style="width: 100.0%; height: 100.0%;">     <b>Riverside at Goolwa Retirement Living</b><br>     <b>Care Type:</b> Retirement Living<br>     <b>Places:</b> 50<br>     <b>Address:</b> 192 Liverpool Road, Goolwa, SA 5214     </div>`)[0];
+                popup_3c9506281f156a52aaaa2c79c80b8954.setContent(html_f9863dec64d448d31479a5cf2abb5943);
+            
+        
+
+        marker_46c2b53a88bbc2eabca20e673f64529a.bindPopup(popup_3c9506281f156a52aaaa2c79c80b8954)
+        ;
+
+        
+    
+    
+            var marker_c82be8f7f6c2bed877a5f51983299ef1 = L.marker(
+                [-34.8557292377626, 138.482105552068],
+                {}
+            ).addTo(marker_cluster_4647da25acc698d0c981e615590048f9);
+        
+    
+            var icon_c5e5278708e31fde9153753fc9bad425 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "paw", "iconColor": "white", "markerColor": "cadetblue", "prefix": "fa"}
+            );
+            marker_c82be8f7f6c2bed877a5f51983299ef1.setIcon(icon_c5e5278708e31fde9153753fc9bad425);
+        
+    
+        var popup_bd0804c83fee0bbffcbd1d16eff4dbec = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b74cc801edf79f87c802dbc0a0ab173b = $(`<div id="html_b74cc801edf79f87c802dbc0a0ab173b" style="width: 100.0%; height: 100.0%;">     <b>Semaphore Park Retirement Living</b><br>     <b>Care Type:</b> Retirement Living<br>     <b>Places:</b> 29<br>     <b>Address:</b> 35 Recreation Parade, Semaphore Park, SA 5019     </div>`)[0];
+                popup_bd0804c83fee0bbffcbd1d16eff4dbec.setContent(html_b74cc801edf79f87c802dbc0a0ab173b);
+            
+        
+
+        marker_c82be8f7f6c2bed877a5f51983299ef1.bindPopup(popup_bd0804c83fee0bbffcbd1d16eff4dbec)
+        ;
+
+        
+    
+    
+            var marker_1d1293fdc9ad555d3b2ce9fd8e289c92 = L.marker(
+                [-34.9936109667532, 138.525289671709],
+                {}
+            ).addTo(marker_cluster_4647da25acc698d0c981e615590048f9);
+        
+    
+            var icon_22ee42843a6b47b19a5bb9d4835e6819 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "paw", "iconColor": "white", "markerColor": "cadetblue", "prefix": "fa"}
+            );
+            marker_1d1293fdc9ad555d3b2ce9fd8e289c92.setIcon(icon_22ee42843a6b47b19a5bb9d4835e6819);
+        
+    
+        var popup_36745e924816caa9e113d172a62e31fa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_13587771ba7a0c27fc21e5cdf9896890 = $(`<div id="html_13587771ba7a0c27fc21e5cdf9896890" style="width: 100.0%; height: 100.0%;">     <b>Somerton Park Retirement Living</b><br>     <b>Care Type:</b> Retirement Living<br>     <b>Places:</b> 27<br>     <b>Address:</b> 8 Peterson Street, Somerton Park, SA 5044     </div>`)[0];
+                popup_36745e924816caa9e113d172a62e31fa.setContent(html_13587771ba7a0c27fc21e5cdf9896890);
+            
+        
+
+        marker_1d1293fdc9ad555d3b2ce9fd8e289c92.bindPopup(popup_36745e924816caa9e113d172a62e31fa)
+        ;
+
+        
+    
+    
+            var marker_b050dc4854a0a60aae62805c4575829b = L.marker(
+                [-34.9118443270299, 138.627559821412],
+                {}
+            ).addTo(marker_cluster_4647da25acc698d0c981e615590048f9);
+        
+    
+            var icon_3d78bc946bfccbf52725170e89e77f4f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "paw", "iconColor": "white", "markerColor": "cadetblue", "prefix": "fa"}
+            );
+            marker_b050dc4854a0a60aae62805c4575829b.setIcon(icon_3d78bc946bfccbf52725170e89e77f4f);
+        
+    
+        var popup_0b98e3b68a86e10b42f3790aa643b48a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1cda55d774132fb7b8e9f42ae2d33177 = $(`<div id="html_1cda55d774132fb7b8e9f42ae2d33177" style="width: 100.0%; height: 100.0%;">     <b>St Peters Close Retirement Living</b><br>     <b>Care Type:</b> Retirement Living<br>     <b>Places:</b> 6<br>     <b>Address:</b> 47 Stepney Street, Stepney, SA 5069     </div>`)[0];
+                popup_0b98e3b68a86e10b42f3790aa643b48a.setContent(html_1cda55d774132fb7b8e9f42ae2d33177);
+            
+        
+
+        marker_b050dc4854a0a60aae62805c4575829b.bindPopup(popup_0b98e3b68a86e10b42f3790aa643b48a)
+        ;
+
+        
+    
+    
+            var marker_7e59110718663b161508e69e9d54fcbf = L.marker(
+                [-35.5055300679612, 138.697689879577],
+                {}
+            ).addTo(marker_cluster_4647da25acc698d0c981e615590048f9);
+        
+    
+            var icon_d06afe479e08d9ac1fb896013655f5b5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "paw", "iconColor": "white", "markerColor": "cadetblue", "prefix": "fa"}
+            );
+            marker_7e59110718663b161508e69e9d54fcbf.setIcon(icon_d06afe479e08d9ac1fb896013655f5b5);
+        
+    
+        var popup_9775b1cae51aaddbd84acf8cb8a84ca3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0b820dc8fed6493e506154bdf2822bb7 = $(`<div id="html_0b820dc8fed6493e506154bdf2822bb7" style="width: 100.0%; height: 100.0%;">     <b>The Fairways Retirement Estate</b><br>     <b>Care Type:</b> Retirement Living<br>     <b>Places:</b> 24<br>     <b>Address:</b> 29 Adelaide Road, McCracken, SA 5211     </div>`)[0];
+                popup_9775b1cae51aaddbd84acf8cb8a84ca3.setContent(html_0b820dc8fed6493e506154bdf2822bb7);
+            
+        
+
+        marker_7e59110718663b161508e69e9d54fcbf.bindPopup(popup_9775b1cae51aaddbd84acf8cb8a84ca3)
+        ;
+
+        
+    
+    
+            var marker_538215c390b6cfc79729bec7708a817a = L.marker(
+                [-34.9560113098554, 138.550862821393],
+                {}
+            ).addTo(marker_cluster_4647da25acc698d0c981e615590048f9);
+        
+    
+            var icon_e0f8688506e8b5c12a743b6b83a4450b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "paw", "iconColor": "white", "markerColor": "cadetblue", "prefix": "fa"}
+            );
+            marker_538215c390b6cfc79729bec7708a817a.setIcon(icon_e0f8688506e8b5c12a743b6b83a4450b);
+        
+    
+        var popup_53dc52c3a81db49a5e7360b78bdf167d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6dca770089384cd8367ac945f087a266 = $(`<div id="html_6dca770089384cd8367ac945f087a266" style="width: 100.0%; height: 100.0%;">     <b>The Pines Retirement Living</b><br>     <b>Care Type:</b> Retirement Living<br>     <b>Places:</b> 71<br>     <b>Address:</b> 336 Marion Road, North Plympton, SA 5037     </div>`)[0];
+                popup_53dc52c3a81db49a5e7360b78bdf167d.setContent(html_6dca770089384cd8367ac945f087a266);
+            
+        
+
+        marker_538215c390b6cfc79729bec7708a817a.bindPopup(popup_53dc52c3a81db49a5e7360b78bdf167d)
+        ;
+
+        
+    
+    
+            var marker_de5a3a175b48ac9563e62e93ac390521 = L.marker(
+                [-34.7929865844366, 138.690876009735],
+                {}
+            ).addTo(marker_cluster_4647da25acc698d0c981e615590048f9);
+        
+    
+            var icon_fb75308c236058857ee5e93d6cc29194 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "paw", "iconColor": "white", "markerColor": "cadetblue", "prefix": "fa"}
+            );
+            marker_de5a3a175b48ac9563e62e93ac390521.setIcon(icon_fb75308c236058857ee5e93d6cc29194);
+        
+    
+        var popup_1f261c7c2c9d5ae4f1010254f60b63ea = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bda542e352f2b18c4e5c87d4fb6183d8 = $(`<div id="html_bda542e352f2b18c4e5c87d4fb6183d8" style="width: 100.0%; height: 100.0%;">     <b>The Vines Retirement Living</b><br>     <b>Care Type:</b> Retirement Living<br>     <b>Places:</b> 6<br>     <b>Address:</b> 1 Taeuber Court, Wynn Vale, SA 5127     </div>`)[0];
+                popup_1f261c7c2c9d5ae4f1010254f60b63ea.setContent(html_bda542e352f2b18c4e5c87d4fb6183d8);
+            
+        
+
+        marker_de5a3a175b48ac9563e62e93ac390521.bindPopup(popup_1f261c7c2c9d5ae4f1010254f60b63ea)
+        ;
+
+        
+    
+    
+            var marker_dbc9f7642d1236d6c0cb73f927b9a717 = L.marker(
+                [-34.962775210114, 138.640019663116],
+                {}
+            ).addTo(marker_cluster_4647da25acc698d0c981e615590048f9);
+        
+    
+            var icon_a7715c5f05223400f9e0f4ea63a5fea1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "paw", "iconColor": "white", "markerColor": "cadetblue", "prefix": "fa"}
+            );
+            marker_dbc9f7642d1236d6c0cb73f927b9a717.setIcon(icon_a7715c5f05223400f9e0f4ea63a5fea1);
+        
+    
+        var popup_a163e88bc5bb189511a9842fcc3db2da = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dd6010caf6c5b8ac59f63622f00da895 = $(`<div id="html_dd6010caf6c5b8ac59f63622f00da895" style="width: 100.0%; height: 100.0%;">     <b>The Waterford Retirement Living</b><br>     <b>Care Type:</b> Retirement Living<br>     <b>Places:</b> 51<br>     <b>Address:</b> 16 Cross Road, Myrtle Bank, SA 5064     </div>`)[0];
+                popup_a163e88bc5bb189511a9842fcc3db2da.setContent(html_dd6010caf6c5b8ac59f63622f00da895);
+            
+        
+
+        marker_dbc9f7642d1236d6c0cb73f927b9a717.bindPopup(popup_a163e88bc5bb189511a9842fcc3db2da)
+        ;
+
+        
+    
+    
+            var marker_dc91b5c05ccd86a6f00f6e886c6edfe6 = L.marker(
+                [-35.0059954272499, 138.537924985205],
+                {}
+            ).addTo(marker_cluster_4647da25acc698d0c981e615590048f9);
+        
+    
+            var icon_6cd5c0ba1dabe4706f3eabf36d9d15dd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "paw", "iconColor": "white", "markerColor": "cadetblue", "prefix": "fa"}
+            );
+            marker_dc91b5c05ccd86a6f00f6e886c6edfe6.setIcon(icon_6cd5c0ba1dabe4706f3eabf36d9d15dd);
+        
+    
+        var popup_99f996cc4cb98d7a50504dae2f2c79cf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_713084ef5af80e722aa978379a27a4c1 = $(`<div id="html_713084ef5af80e722aa978379a27a4c1" style="width: 100.0%; height: 100.0%;">     <b>Warradale Retirement Living</b><br>     <b>Care Type:</b> Retirement Living<br>     <b>Places:</b> 19<br>     <b>Address:</b> 220 Diagonal Road, Warradale, SA 5046     </div>`)[0];
+                popup_99f996cc4cb98d7a50504dae2f2c79cf.setContent(html_713084ef5af80e722aa978379a27a4c1);
+            
+        
+
+        marker_dc91b5c05ccd86a6f00f6e886c6edfe6.bindPopup(popup_99f996cc4cb98d7a50504dae2f2c79cf)
+        ;
+
+        
+    
+    
+            var marker_e0cd370b63f814da3cd450e3cb0bb30f = L.marker(
+                [-34.925216382694, 138.671229779061],
+                {}
+            ).addTo(marker_cluster_4647da25acc698d0c981e615590048f9);
+        
+    
+            var icon_1ea11e4c4cf3e958ced3d59c14738afc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "paw", "iconColor": "white", "markerColor": "cadetblue", "prefix": "fa"}
+            );
+            marker_e0cd370b63f814da3cd450e3cb0bb30f.setIcon(icon_1ea11e4c4cf3e958ced3d59c14738afc);
+        
+    
+        var popup_ee37a017dd2dab4038bcd5b80aced236 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_be2c7db0d54a0bfc0e82958dfb58ef29 = $(`<div id="html_be2c7db0d54a0bfc0e82958dfb58ef29" style="width: 100.0%; height: 100.0%;">     <b>Wattle Grove Retirement Living</b><br>     <b>Care Type:</b> Retirement Living<br>     <b>Places:</b> 22<br>     <b>Address:</b> 1 Wynyard Grove, Wattle Park, SA 5066     </div>`)[0];
+                popup_ee37a017dd2dab4038bcd5b80aced236.setContent(html_be2c7db0d54a0bfc0e82958dfb58ef29);
+            
+        
+
+        marker_e0cd370b63f814da3cd450e3cb0bb30f.bindPopup(popup_ee37a017dd2dab4038bcd5b80aced236)
+        ;
+
+        
+    
+    
+            var layer_control_b856059900f81d824efe3c2cce92e24a = {
+                base_layers : {
+                    "openstreetmap" : tile_layer_7f9cc88635cfd7a0876fd134797e0db9,
+                },
+                overlays :  {
+                    "Residential Care" : feature_group_5ffc3745ccdfe4381cdbdaafb6ec234f,
+                    "Retirement Living" : feature_group_0dd8f83312b7b7b7c8d4a678dc21f08d,
+                },
+            };
+            L.control.layers(
+                layer_control_b856059900f81d824efe3c2cce92e24a.base_layers,
+                layer_control_b856059900f81d824efe3c2cce92e24a.overlays,
+                {"autoZIndex": true, "collapsed": false, "position": "topright"}
+            ).addTo(map_227f4ec2420d4d404500c6ee6551735b);
+        
+</script>
+</html>
